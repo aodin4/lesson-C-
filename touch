@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+
+int main(void)
+{
+	int massiv[2][3] = {{'A','B','C'},
+				{10,20,30}};
+	printf("Element [0][0] - %c\n",massiv[0][0]);
+	printf("Element [0][1] - %c\n",massiv[0][1]);
+	printf("Element [0][2] - %c\n",massiv[0][2]);
+}
