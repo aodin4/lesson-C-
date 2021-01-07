@@ -11,15 +11,16 @@ int main()
 	printf("(y/n)\n");
 	scanf("%s", &symbol);
 	
+	 
 	}
 	printf("Nadoelo?;)))");   
-	
+	printf("\n");
 	int number;
 	number = 0;
 	while(number <=10) 
 	{
 	for(int i = 0;i <=10;i++)
-		fprintf(stdout,"Count[%d]\t%d\n",i,number); 
+		fprintf(stdout,"Count[%d]\t%d\n",i,number++); 
 	}
 
 

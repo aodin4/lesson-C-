@@ -3,20 +3,25 @@
 void recur(int number);
 
 int main()
-{	
+{
 	int number;
-	fprintf(stdout,"Add number for recurtion: ");
+	printf("Recur function\n");
 	fscanf(stdin,"%d",&number);
 	recur(number);
-	puts("Recurtion all!\n");
+	puts("All recur\n");
 
+}
 
 void recur(int number)
 {
 	fprintf(stdout,"%d\n",number);
 	--number;
-	if(number<0)
-		return;
-	else
-		recur(number);
+	{
+		if(number < 0)
+			return;
+		else
+			recur(number);	
+	}
+
+
 }
